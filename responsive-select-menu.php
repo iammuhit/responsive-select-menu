@@ -707,7 +707,7 @@ class ResponsiveSelectWalker extends Walker_Nav_Menu{
 	 *
 	 * Calls parent function in UberMenuWalker.class.php
 	 */
-	function display_element( $element, &$children_elements, $max_depth, $depth=0, $args, &$output ) {
+	function display_element( $element, &$children_elements, $max_depth, $depth, $args, &$output ) {
 
 		if ( !$element )
 			return;

@@ -775,7 +775,6 @@ class ResponsiveMenuSelectOptions{
 				case 'header':
 				case 'header-2':
 				case 'infobox':
-					continue;
 					break;
 				case 'color':
 					if( isset( $_POST[$key.'-color2'] ) ){
